@@ -12,7 +12,7 @@
 <body>
     <header>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-fluid">
           <h2>Bliss</h2>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,11 +21,11 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav fs-4 mx-auto">
                 
-              <a class="nav-link mx-3" href="#">Home</a>
-              <a class="nav-link mx-3" href="#">About</a>
-              <a class="nav-link mx-3" href="#">Services</a>
-              <a class="nav-link mx-3" href="#">Blog</a>
-              <a class="nav-link mx-3" href="#">Contact Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+              <a class="nav-link mx-3" href="#Home">Home</a>
+              <a class="nav-link mx-3" href="#About">About</a>
+              <a class="nav-link mx-3" href="#Services">Services</a>
+              <a class="nav-link mx-3" href="#Blog">Blog</a>
+              <a class="nav-link mx-3" href="#Contact Us">Contact Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
               <i class="fa-solid fa-user-tie fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <i class="fa-solid fa-magnifying-glass fa-2x"></i>
             </div>
@@ -35,8 +35,8 @@
     </header>
 
     <main>
-        <div class="container-fluid mt-5">
-            <div class="row">
+        <div class="container-fluid mt-5 py-5" id="Home">
+            <div class="row mt-5">
                 
                 <div class="col-md-6 my-5">
                     <h1 class="my-3"><b>Spa<br>Center</b></h1>
@@ -67,7 +67,7 @@
         </div>
         </div>
 
-        <div class="container-fluid mt-5 bg-warning text-center">
+        <div class="container-fluid mt-5 bg-warning text-center py-5" id="About">
             <h1 class="mt-5"><b>Make Appointment</b></h1>
             <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
             <div class="container">
@@ -108,13 +108,13 @@
         </div>
 
 
-        <div class="container-fluid mt-5">
-            <h1 class="text-center"><b>Our Massage Services</b></h1>
+        <div class="container-fluid mt-5 py-5" id="Services">
+            <h1 class="text-center mt-5"><b>Our Massage Services</b></h1>
             
             
                 <div class="container">
                     <div class="row mt-5">
-                        <div class="col-md-4">
+                        <div class="col-md-4 mt-3">
                             <h2><b>Ayurveda Spa</b></h2>
                 <div class="card" style="width: 18rem;">
                     
@@ -125,7 +125,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mt-3">
                     <h2><b>Massage Spa</b></h2>
                     <div class="card" style="width: 18rem;">
                         
@@ -136,7 +136,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 mt-3">
                         <h2><b>Luxury Spa</b></h2>
                         <div class="card" style="width: 18rem;">
                             
@@ -153,8 +153,8 @@
         </div>
 
 
-        <div class="container-fluid bg-dark text-light text-center mt-5">
-            <h1><b>Our Priceing</b></h1>
+        <div class="container-fluid bg-dark text-light text-center mt-5 py-5" id="Blog">
+            <h1 class=" mt-5"><b>Our Priceing</b></h1>
             <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
             
             <div class="container">
@@ -192,7 +192,7 @@
             
                 <div class="container">
                     <div class="row mt-5">
-                        <div class="col-md-4">
+                        <div class="col-md-4 mt-3">
                             
                 <div class="card" style="width: 18rem;">
                     
@@ -203,7 +203,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mt-3">
                     
                     <div class="card" style="width: 18rem;">
                         
@@ -214,7 +214,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 mt-3">
                         
                         <div class="card" style="width: 18rem;">
                             
@@ -245,8 +245,8 @@
         </div>
 
 
-        <div class="container-fluid mt-5">
-            <div class="row">
+        <div class="container-fluid mt-5 py-5" id="Contact Us">
+            <div class="row mt-5">
                 <div class="col-md-2">
                     <img src="images/test2.png" class="d-block w-100" alt="...">
                     <h5><b>ENGLISH.MANY</b></h5>
@@ -287,8 +287,9 @@
                     </div>
                 </div>
             </div>
-
-            <p class="text-center my-5">© 2045 All Rights Reserved. By HTML Design</p>
+            <footer>
+            <p class="text-center my-3">© 2045 All Rights Reserved. By HTML Design</p>
+            </footer>
     </main>
 
 
